@@ -1,0 +1,21 @@
+InfoAI - site și aplicație
+==========================
+
+Ce e în folder:
+  index.html            – tot site-ul (merge și cu dublu-click, ca înainte)
+  manifest.webmanifest  – îi spune telefonului că InfoAI e o aplicație (nume, iconiță, culori)
+  sw.js                 – face aplicația să meargă și fără internet
+  icons/                – iconițele aplicației
+
+Ca să se poată INSTALA pe telefon/calculator, site-ul trebuie pus pe internet (gratuit):
+  1. Intră pe  https://app.netlify.com/drop  și fă-ți cont gratuit (merge „Continue with Google”).
+  2. Trage TOT folderul acesta (nu doar index.html) în pagină.
+  3. În câteva secunde primești o adresă de forma  https://ceva.netlify.app
+  4. Deschide adresa pe telefon → apare butonul „Instalează aplicația” (sau din meniul browserului:
+     „Adaugă pe ecranul de pornire”). Pe iPhone: Safari → Partajează → „Adaugă pe ecranul principal”.
+
+Când ai o versiune nouă: în Netlify, la site-ul tău → Deploys → trage din nou folderul.
+Aplicația de pe telefoane se actualizează singură (apare „Există o versiune nouă”).
+
+InfoHoot: jocul are nevoie de internet. Cine creează jocul primește un PIN; ceilalți intră la
+InfoHoot și scriu PIN-ul. Pe site-ul de pe internet apare și un cod QR + link de trimis pe grup.
