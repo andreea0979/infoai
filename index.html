@@ -21087,10 +21087,14 @@ Dacă poza nu are legătură cu informatica, spune politicos că ajuți doar la 
     window.addEventListener('offline', offlineNote);
     window.addEventListener('online', () => toast('✅ Ai din nou internet.'));
 
+    function appTitle() { if (standalone() || /[?&]sursa=aplicatie/.test(location.search)) document.title = 'InfoAI'; }
+    appTitle();
+    try { matchMedia('(display-mode: standalone)').addEventListener('change', appTitle); } catch (e) { }
     document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             openFromUrl();
             if (standalone()) document.documentElement.classList.add('pwa-standalone');
+            appTitle();
             renderCard();
 
             if (online && isIOS && !standalone()) showInstall();

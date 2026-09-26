@@ -1,26 +1,87 @@
 {
-  "name": "InfoAI — Informatică C++, clasa a X-a",
+  "name": "InfoAI",
   "short_name": "InfoAI",
-  "description": "Lecții animate de C++, probleme evaluate pe teste, simulări de test și de Bac, exerciții și InfoHoot — quiz de informatică jucat cu prietenii.",
+  "description": "Lecții de C++ explicate pas cu pas, algoritmi animați, probleme evaluate pe teste, simulări de test și de Bac, exerciții, InfoHoot și Duel 1 la 1 cu colegii.",
   "lang": "ro",
   "id": "./",
   "start_url": "./index.html?sursa=aplicatie",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone"],
+  "display_override": [
+    "standalone"
+  ],
   "orientation": "any",
   "background_color": "#FFFFFF",
   "theme_color": "#FF5FA2",
-  "categories": ["education"],
+  "categories": [
+    "education"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "InfoHoot", "short_name": "InfoHoot", "description": "Joacă quiz cu prietenii", "url": "./index.html?page=infohoot", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Lecții", "url": "./index.html?page=materia", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Simulare test", "url": "./index.html?page=simulare", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "Lecții",
+      "url": "./index.html?page=materia",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Duel 1 la 1",
+      "url": "./index.html?page=duel",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "InfoHoot",
+      "url": "./index.html?page=infohoot",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Harta mea",
+      "url": "./index.html?page=harta",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }
