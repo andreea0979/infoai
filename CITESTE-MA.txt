@@ -1,27 +1,29 @@
 InfoAI - site și aplicație
 ==========================
 
+Adresa site-ului:  https://platforma-info-ai.github.io
+
 Ce e în folder:
-  index.html            - tot site-ul (merge și cu dublu-click)
+  index.html            - tot site-ul
   manifest.webmanifest  - numele, iconița și culorile aplicației
   sw.js                 - face aplicația să meargă și fără internet
   icons/                - iconițele aplicației
 
-PUNE SITE-UL PE INTERNET (gratuit, 5 minute):
-  1. Dezarhivează arhiva (click dreapta -> Extrage tot).
-  2. Intră pe  https://app.netlify.com/drop  și fă-ți cont gratuit (merge „Continue with Google”).
-  3. Trage TOT folderul (nu doar index.html) în pagină.
-  4. Primești o adresă de forma  https://ceva.netlify.app
-     Din Site configuration -> Change site name o poți schimba în ceva frumos, de ex. infoai-cpp.netlify.app
+VERSIUNE NOUĂ PE SITE:
+  Pe GitHub, în repo-ul platforma-info-ai.github.io -> Add file -> Upload files ->
+  trage fișierele schimbate (de obicei index.html și sw.js) -> Commit changes.
+  După 1-2 minute site-ul e actualizat, iar aplicația de pe telefoane se actualizează singură.
 
 INSTALEAZĂ APLICAȚIA:
+  - Telefon (Android): deschide adresa în Chrome -> meniul ☰ din site -> „Instalează aplicația”
+    (sau meniul ⋮ al browserului -> „Instalează aplicația”).
+  - iPhone/iPad: deschide adresa în Safari -> Partajează -> „Adaugă pe ecranul principal”.
   - Calculator/laptop: deschide adresa în Chrome sau Edge -> butonul „Instalează aplicația” din site
     (sau iconița ⊕ din bara de adrese).
-  - Android: deschide adresa în Chrome -> „Instalează” (sau meniul ⋮ -> „Instalează aplicația”).
-  - iPhone/iPad: deschide adresa în Safari -> Partajează -> „Adaugă pe ecranul principal”.
 
-VERSIUNE NOUĂ: în Netlify, la site-ul tău -> Deploys -> trage din nou folderul.
-Aplicația de pe telefoane se actualizează singură (apare „Există o versiune nouă”).
+CONTURI: conturile sunt salvate online. Te conectezi cu emailul și parola de pe orice telefon
+sau calculator, iar progresul te așteaptă acolo. Dacă ai uitat parola, apasă „Ai uitat parola?”.
 
-CE ARE NEVOIE DE INTERNET: Asistentul AI (pe telefon), pozele, InfoHoot, Duelul prin cod și compilatorul.
-Lecțiile, testele, exercițiile, animațiile, Pas cu pas și Antrenamentul cu Bit merg și fără internet.
+CE ARE NEVOIE DE INTERNET: conectarea la cont, Asistentul AI, pozele, InfoHoot, Duelul prin cod,
+compilatorul și vocea feminină de citire.
+Lecțiile, testele, exercițiile, animațiile, Teoria și Pas cu pas merg și fără internet.
